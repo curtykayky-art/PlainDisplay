@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #059728;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+
+    background-color: #059728;
+}
+
+header {
+    background-color: #2D2D2D;
+    padding: 15px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hero {
+    background-color: #1D1D1D;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    color: #aaa;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.cards-section {
+    background-color: #fff;
+}
+
+.cards-section h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.cards-section>p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px 20px;
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+}
+
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.green-section {
+    background-color: #059728;
+    color: #fff;
+}
+
+.green-section h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.green-section p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.green-section small {
+    display: block;
+    font-size: 11px;
+    margin-top: 20px;
+    opacity: 0.8;
+    line-height: 1.4;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #059728;
+}
+
+.btn-white:hover {
+    background-color: #eee;
+}
+
+.text-section {
+    background-color: #fff;
+    padding-bottom: 60px;
+}
+
+.text-section h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #1D1D1D;
+    color: #777;
+    padding: 30px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.link-menu {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.link-menu:hover {
+    background-color: #059728;
+    color: white;
+    font-weight: bold;
+}
